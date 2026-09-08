@@ -1,0 +1,58 @@
+{
+  "status": "success",
+  "host": "127.0.0.1",
+  "hostname": "localhost",
+  "host_state": "up",
+  "open_ports": [
+    135
+  ],
+  "vulnerability_stats": {
+    "Critical": 0,
+    "High": 1,
+    "Medium": 0,
+    "Low": 0
+  },
+  "ports": [
+    {
+      "port": 135,
+      "protocol": "tcp",
+      "service": "msrpc",
+      "version": "",
+      "product": "Microsoft Windows RPC",
+      "risk_level": "High",
+      "risk_color": "#FF6D00",
+      "service_display": "MSRPC"
+    }
+  ],
+  "radar_data": {
+    "labels": [
+      "135/tcp"
+    ],
+    "datasets": [
+      {
+        "label": "Open Ports",
+        "data": [
+          1
+        ],
+        "backgroundColor": [
+          "#FF6D0040"
+        ],
+        "borderColor": [
+          "#FF6D00"
+        ],
+        "pointBackgroundColor": [
+          "#FF6D00"
+        ]
+      }
+    ]
+  },
+  "scan_parameters": {
+    "target": "127.0.0.1",
+    "port_range": "130-140",
+    "timestamp": "2026-09-07T20:41:38.064382",
+    "scanner_version": [
+      7,
+      991
+    ]
+  }
+}
